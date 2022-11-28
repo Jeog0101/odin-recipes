@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+ 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,3 +47,66 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    margin: 0;
+    background-color: rgb(252, 70, 107, 100);
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  img {
+    height: auto;
+    width: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+
+  main {
+    margin-bottom: 4rem;
+  }
+
+  .heading {
+    padding: 2rem 0;
+    color: rgb(119, 51, 153);
+  }
+
+  .content-width {
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+  }
+
+  .content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
+
+  .main-heading {
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .sub-heading {
+    font-size: 32px;
+    color: rgb(255, 228, 196);
+  }
+
+  a {
+    color: rgb(255, 215, 0);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+  }
+  
